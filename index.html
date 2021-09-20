@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cosmestore</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-3">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Cosmestore</a>
+    </div>
+  </nav>
+  <div class="container">
+    <h2 class="text-center">Bienvenido a Cosmestore</h2>
+    <p class="text-center">Puedes verte en nuestro espejo todo lo que quieras</p>
+    <div class="wrapper">
+      <div class="webcam-container">
+        <video autoplay="true" id="webcam"></video>
+      </div>
+      <div class="mirror-container text-center">
+        <img src="mirror.png" alt="">
+      </div>
+    </div>
+  </div>
+  <footer class="footer mt-auto py-3 bg-light">
+    <div class="container">
+      <span class="text-muted">@fabioeldev. 2021</span>
+    </div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>

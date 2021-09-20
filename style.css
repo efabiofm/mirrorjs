@@ -1,0 +1,26 @@
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+#webcam {
+  width: 320px;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.webcam-container {
+  width: 180px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.mirror-container {
+  position: absolute;
+  top: 0;
+  text-align: center;
+  width: 100%;
+}
